@@ -119,7 +119,7 @@
 <body>
 
 <header>
-  <h1>📘 Historia del Cálculo Integral:</h1>
+  <h1>📘 Historia del Cálculo Integral..</h1>
   <p>Origen y evolución de una de las ramas más importantes de las matemáticas</p>
 </header>
 
@@ -145,7 +145,7 @@
   </div>
 
   <div class="card">
-    <h2>🔹 Desarrollo en el siglo XVII</h2>
+    <h2>🔹 Desarrollo en el siglo XVII:</h2>
     <p>
       El cálculo integral fue formalmente desarrollado en el siglo XVII por 
       Isaac Newton y Gottfried Wilhelm Leibniz. Ambos, de forma independiente, 
