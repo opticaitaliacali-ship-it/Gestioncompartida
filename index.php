@@ -119,7 +119,7 @@
 <body>
 
 <header>
-  <h1>📘 Historia del Cálculo Integral..</h1>
+  <h1>📘 HISTORIA DEL CALCULO INTEGRAL..</h1>
   <p>Origen y evolución de una de las ramas más importantes de las matemáticas</p>
 </header>
 
