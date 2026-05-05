@@ -5,51 +5,115 @@
   <title>Historia del Cálculo Integral:</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-      line-height: 1.6;
-    }
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Diseño Pro</title>
 
-    header {
-      background: #1e293b;
-      padding: 25px;
-      text-align: center;
-    }
+<style>
+  * {
+    box-sizing: border-box;
+  }
 
-    header h1 {
-      margin: 0;
-      font-size: 2.2em;
-    }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: #e2e8f0;
+  }
 
-    section {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
+  header {
+    background: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
 
-    .card {
-      background: #1e293b;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.4);
-    }
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    background: linear-gradient(90deg, #38bdf8, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-    h2 {
-      color: #38bdf8;
-    }
+  section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
 
-    footer {
-      background: #1e293b;
-      text-align: center;
-      padding: 15px;
-      margin-top: 20px;
-    }
-  </style>
+  .card {
+    background: rgba(30, 41, 59, 0.5);
+    backdrop-filter: blur(12px);
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* brillo animado */
+  .card::before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    background: linear-gradient(120deg, transparent, rgba(56,189,248,0.3), transparent);
+    transform: rotate(25deg);
+    top: -50%;
+    left: -50%;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .card:hover::before {
+    opacity: 1;
+    top: 100%;
+    left: 100%;
+  }
+
+  .card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+  }
+
+  h2 {
+    color: #38bdf8;
+  }
+
+  footer {
+    background: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+
+  /* botón moderno */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #38bdf8, #6366f1);
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #38bdf8;
+  }
+
+</style>
 </head>
 
 <body>
