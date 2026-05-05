@@ -81,7 +81,7 @@
   </div>
 
   <div class="card">
-    <h2>🔹 Desarrollo en el siglo XVII</h2>
+    <h2>🔹 Desarrollo en el siglo XVII:</h2>
     <p>
       El cálculo integral fue formalmente desarrollado en el siglo XVII por 
       Isaac Newton y Gottfried Wilhelm Leibniz. Ambos, de forma independiente, 
